@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages { 
-        stage('Example') {
+        stage('one') {
             steps {
                 echo 'Hello World'
             }
         }
-         stage('Example') {
+         stage('second') {
             steps {
                 echo 'i am getting executed'
             }
